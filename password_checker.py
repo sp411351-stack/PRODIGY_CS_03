@@ -41,6 +41,7 @@ def check_password_strength(password):
 password = input("Enter your password: ")
 strength, feedback = check_password_strength(password)
 
+
 print(f"\nPassword Strength: {strength}")
 if feedback:
     print("Suggestions to improve your password:")
